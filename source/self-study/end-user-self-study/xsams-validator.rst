@@ -7,11 +7,11 @@ The XSAMS file format and TAP Validator application
 Task 1: Find some spectroscopic data
 ------------------------------------
 
-In this task we will reuse the XSAMS file got from `this exercise <http://lerma.obspm.fr/adass/portal/first-steps-with-portal.html#task-3-find-some-spectroscopic-data>`_.
+In this task we will reuse the XSAMS file got from `this exercise <http://tutorial.vamdc.org/self-study/end-user-self-study/portal/first-steps-with-portal.html#task-3-find-some-spectroscopic-data>`_.
 
 It contains spectroscopic data from the Chianti databases for transitions whose wavelength is between 5000 and 5010 Angstroms.
 
-If you do not have this file anymore, you can either do the previous activity again or simply `get it from here <http://lerma.obspm.fr/adass/archives/chianti.xsams>`_.
+If you do not have this file anymore, you can either do the previous activity again or simply :download:`get it from here <chianti.xsams>`.
 
 Task 2: Starting the Tap Validator tool
 ---------------------------------------
