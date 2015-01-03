@@ -1,81 +1,45 @@
 Self-study course for data providers
 ====================================
 
-A `quick-start guide <http://www.vamdc.eu/documents/nodesoftware/quickstart.html>`_ is available for people who wish to add their own data to VAMDC. By reading this briefing and then following the detailed instructions in the `node-software manual <http://www.vamdc.org/documents/nodesoftware/index.html>`_, data-providers can learn about the VAMDC technology at their own pace.
+The screen-cast videos below are a complement to the existing documentation.
+They show how to get a new data node running. Before starting, you should have
+read the `quick-start guide
+<http://www.vamdc.eu/documents/nodesoftware/quickstart.html>`_ for people who
+wish to add their own data to VAMDC.
 
-Terminal session videos
--------------------------------
+Once you decide you want an own VAMDC data node, it is time to look into the `node-software manual
+<http://www.vamdc.org/documents/nodesoftware/index.html>`_ which contains all information covered below, and more.
 
-The following is a set of recorded command-line sessions for self-paced study, covering roughly the same procedures as the quick-start guide and node-software manual.
+The following recorded terminal sessions put into practice these instructions and cover the involved steps in a concise walk-through.
 
-A few remarks before diving into them:
+A few remarks before you start watching:
 
-* The video and audio are separate. The audio commentary will tell you when to start the video.
-* The video is not "video" per se, but recorded text. This allows you, for example, to copy and paste from what you see.
-* Some familiarity with Linux servers, the command line and Python will help following the process.
-
-Installing the software prerequisites
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-.. raw:: html
-
-    <br/>
-    <audio controls>
-    <source src="http://tmy.se/t/install.ogg" type="audio/ogg">
-    <source src="http://tmy.se/t/install.mp3" type="audio/mpeg">
-    Your browser does not support the audio element.
-    </audio>
-    &nbsp;&nbsp;&nbsp;
-    <a href="http://showterm.io/46124ff5301f2b922c18a" onclick="window.open(this.href, 'mywin', 'left=20,top=20,width=640,height=480,toolbar=1,resizable=0'); return false;" ><b>Start video (pop-up)</b></a>
+* A basic familiarity with the linux command line is a prerequisite for understanding. Basic knowledge in the Python programming language is recommended.
+* The videos are not "video" per se, but recorded text. This allows you, for example, to copy and paste from what you see.
+* There are controls for play/pause and slower/faster playback.
+* Audio commentary will be available soon.
 
 
-First steps towards a data node
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The screencasts:
 
-.. raw:: html
-
-    <br/>
-    <audio controls>
-    <source src="http://tmy.se/t/firststeps.ogg" type="audio/ogg">
-    <source src="http://tmy.se/t/firststeps.mp3" type="audio/mpeg">
-    Your browser does not support the audio element.
-    </audio>
-    &nbsp;&nbsp;&nbsp;
-    <a href="http://showterm.io/5dbc37fcbb4124e722a4b" onclick="window.open(this.href, 'mywin', 'left=20,top=20,width=640,height=480,toolbar=1,resizable=0'); return false;" ><b>Start video (pop-up)</b></a>
+| **#1** Installing the software and its prerequisites:  :download:`Start <tut1.html>`.
+|
+| **#2** A tour around the files: :download:`Start <tut2.html>`.
+|
+| **#3** Connecting to a MySQL database: :download:`Start <tut3.html>`.
+|
+| **#4** The data model: :download:`Start <tut4.html>`.
+|
+| **#5** The dictionaries: :download:`Start <tut5.html>`.
+|
+| **#6** The query function: :download:`Start <tut6.html>`.
+| **#6a** Supplementary: :download:`Start <tut6a.html>`.
+|
+| **#7** Deployment: :download:`Start <tut7.html>`.
+|
+| **#8** Validation and filling the database: :download:`Start <tut8.html>`.
 
 
 
-From data model to database
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. raw:: html
-
-    <br/>
-    <audio controls>
-    <source src="http://tmy.se/t/model2db.ogg" type="audio/ogg">
-    <source src="http://tmy.se/t/model2db.mp3" type="audio/mpeg">
-    Your browser does not support the audio element.
-    </audio>
-    &nbsp;&nbsp;&nbsp;
-    <a href="http://showterm.io/1449420727f0333c3a80e" onclick="window.open(this.href, 'mywin', 'left=20,top=20,width=640,height=480,toolbar=1,resizable=0'); return false;" ><b>Start video (pop-up)</b></a>
-
-
-From database to data model
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-The Returnables
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-The Restrictables
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-The Query Function
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
-Testing and Validation
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Proper deployment
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
+If you are interested in the VirtualBox image of the virtual machine that was use to create the above recordings, including snapshots bewteen each step, it is available upon request to support@vamdc.eu .
