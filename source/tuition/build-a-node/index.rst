@@ -12,6 +12,7 @@ Contents:
    infrastructure-check-list
    spectroscopic/index
    collisional/index
+   virtual-machine
    node-faq
 
 
