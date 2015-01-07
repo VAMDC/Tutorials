@@ -17,7 +17,7 @@ A few remarks before you start watching:
 * A basic familiarity with the linux command line is a prerequisite for understanding. Basic knowledge in the Python programming language is recommended.
 * The videos are not "video" per se, but recorded text. This allows you, for example, to copy and paste from what you see.
 * There are controls for play/pause and slower/faster playback.
-* Audio commentary will be available soon.
+* Audio commentary is available through YouTube, see `this playlist <http://www.youtube.com/playlist?list=PLnvixjx1Po3SoCZM7PEQ6oJBxEvZag4gg>`_.
 
 
 The screencasts:
