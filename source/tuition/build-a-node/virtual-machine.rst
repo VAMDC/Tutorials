@@ -7,7 +7,7 @@ Users of Windows and MacOS should consider using these VMs, but they can also be
 Two different images are available. 
 
 * `Base system with node software, MySQL and libraries <http://tutorial.vamdc.eu/_downloads/vamdc-platform.ova>`_
-* `Complete system with executable nodes as examples <http://tutorial.vamdc.eu/_downloads/vamdc-example-nodes>`_
+* `Complete system with executable nodes as examples <http://tutorial.vamdc.eu/_downloads/vamdc-example-nodes.ova>`_
 
 Both images are based on Ubuntu Linux.
 
