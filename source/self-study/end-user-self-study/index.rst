@@ -6,7 +6,9 @@ Self-study course for new users of VAMDC
 
 .. toctree::
    :maxdepth: 2
-
+   
+   glossary-terms-vamdc
+   user-guide-portal
    first-steps-with-portal
    extracting-data-tables
    spectcol
