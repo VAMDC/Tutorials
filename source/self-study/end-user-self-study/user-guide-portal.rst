@@ -192,10 +192,46 @@ See the screenshot below for an annotated screenshot of the Conversion services.
 .. image::
    user-guide-portal/port8.png  
 
+Saved queries
+=============
+
+.. image::
+   user-guide-portal/port9.png 
+   
+Any query you save will appear as a row in the table on this page. 
+Your queries will only be saved for the length of your browser session, if you wish to save your queries between browser sessions then you must be registered on the portal and logged in (see :ref:`Login and Register <login-register>` for further information). 
+From this page you can delete, clone and edit the queries as well as view the results (either directly or through an Conversion service) of any saved results. The columns in the table are described below: 
+
+:red:`Query`
+------------
+    This column will show the query that you saved in VAMDC query language, which is based on SQL. In addition, there are three buttons that affect your saved query: Edit which will take you back to the query builder page, Clone which will do the same but will save as a separate query, and Delete which will delete the saved query. 
+    
+:red:`Comments`
+---------------
+    If you have added comments to your query, either on the query building or results page, they will appear in this column. 
+    
+:red:`Date`
+-----------
+    The date that you saved the query
+    
+The following columns are related to results from queries, only those results that contained data will be saved. If the query has been saved before it has been submitted, the database and download columns will appear blank and the results column will say "No nodes responded". 
+
+:red:`Database`
+---------------
+    This column will contain a list of the database nodes that responded to your query. The check-box next to the database name is used to select data sources for the Conversion services. 
+    
+:red:`Results`
+--------------
+    This column summarises the results of the match from the corresponding node in the database column using shortened versions of the column names on the query results table. 
+
+:red:`Download`
+---------------
+    This column will contain a link to :ref:`XSAMS <xsams>` data for the corresponding node in the database column.
+    
 Info
 ====
 
-This page provides details on how to get help/support. Clicking this button will display a page with a link to these user guide and tutorial pages. (à changer par Nicolas)
+This page provides details on how to get help/support. Clicking this button will display a page with a link to these user guide and tutorial pages.
 
 Feedback
 ========
