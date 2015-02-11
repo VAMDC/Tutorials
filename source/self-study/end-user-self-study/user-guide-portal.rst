@@ -172,7 +172,9 @@ Name
 Convert
     The convert is a check-box used to select data to be sent to the conversion.
 Response 
-    The response indicate the status of the database node. Normally one will see 'OK' regardless of whether the database has any data applicable to your query. If your query matches a lot of data at a particular node, you may see the status as "Truncated" and a percentage of data available. In parenthesis, you get the date of last update of the database.
+    The response indicate the status of the database node. Normally one will see 'OK' regardless of whether the database has any data applicable to your query. If your query matches a lot of data at a particular node, you may see the status as "Truncated" and a percentage of data available in parenthesis. 
+Last database update
+    This column provides the date of last update of the database if it is available. The column title is related to a link which gives more details on it.
 Download 
     If your query matches data at a node then there will be a link in this column (hosted by the node itself) to an :ref:`XSAMS <xsams>` formatted file containing your data (please see the glossary link for more information on the XSAMS format). If you do not have any experience with the XSAMS format, you may find the :ref:`Conversion services <conversion-services>` useful. 
 Species, States, Processes, Radiative, Collisions, Non Radiative 
