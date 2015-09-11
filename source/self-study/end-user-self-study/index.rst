@@ -9,7 +9,6 @@ Self-study course for new users of VAMDC
    
    glossary-terms-vamdc
    user-guide-portal
-   first-steps-with-portal
    extracting-data-tables
    spectcol
    specview
