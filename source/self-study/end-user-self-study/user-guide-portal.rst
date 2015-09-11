@@ -13,7 +13,7 @@ User guide for portal
 Introduction
 ============
 
-This document is compiled to familiarise yourself with the VAMDC portal interface.  If you are not sure what the portal is and whether you should be using it, `click here <http://www.vamdc.org/activities/research/access-to-data/general-portal/>`_ for a short presentation. 
+This document is compiled to familiarise yourself with the VAMDC portal interface.
 
 If you believe there is a mistake in this user guide or are having problems with the portal, please send an email to support@vamdc.eu
 
