@@ -13,7 +13,7 @@ User guide for portal
 Introduction
 ============
 
-This document is compiled to familiarise yourself with the VAMDC portal interface.  If you are not sure what the portal is and whether you should be using it, click here(Mettre le FAQ). 
+This document is compiled to familiarise yourself with the VAMDC portal interface.  If you are not sure what the portal is and whether you should be using it, `click here <http://www.vamdc.org/activities/research/access-to-data/general-portal/>`_ for a short presentation. 
 
 If you believe there is a mistake in this user guide or are having problems with the portal, please send an email to support@vamdc.eu
 
@@ -57,15 +57,30 @@ Available species
 .. image::
    user-guide-portal/port3.png
    
-Query
-=====
+Disclaimer
+==============
 
-Queries are constructed and submitted from this page. When a query has been submitted, you will be taken to the :ref:`Query Results <query-result>` page. 
+.. _disclaimer:
+
+The first time a  new user will access one of the search formulars, he will have to accept the disclaimer below.
+If he declines it, he will be redirected on the portal home page and will not be able to search data. It he accepts it, he will access the search formular.
+
+When the disclaimer is accepted, a cookie is installed on the client computer to remember its choice. This is the only information we will keep through it.
+
+.. image::
+  user-guide-portal/port19.png
+   
+Advanced query
+==============
+
+.. _advanced-query:
+
+Queries can be constructed and submitted either from this page or from the :ref:`guided query interface <guided-query>`. When a query has been submitted, you will be taken to the :ref:`Query Results <query-result>` page. 
 
 .. image::
    user-guide-portal/port4.png
    
-The query page is used to build and submit queries to the database nodes. The portal uses the information available to it (from the :ref:`VAMDC Registry <registry>`_) to make sure that you cannot submit a query to a database node that does not support a particular keyword e.g. only databases that support searches on the "AtomSymbol" keyword will receive the query from the portal. Once a query has been constructed, it can be submitted to those supporting nodes using the "Find Data" button and the results will be displayed on the separate :ref:`Query Results <query-result>` page.
+The query page is used to build and submit queries to the database nodes. The portal uses the information available to it (from the :ref:`VAMDC Registry <registry>`) to make sure that you cannot submit a query to a database node that does not support a particular keyword e.g. only databases that support searches on the "AtomSymbol" keyword will receive the query from the portal. Once a query has been constructed, it can be submitted to those supporting nodes using the "Find Data" button and the results will be displayed on the separate :ref:`Query Results <query-result>` page.
 
 :red:`Query Menu`
 -----------------
@@ -124,7 +139,83 @@ Below is an annotated screenshot of the node tree.
 -----------------------------------------
 
 The "Find Data" button is used to submit your query and take you to the query results page. If your query is not valid then the button will appear ghosted and will be non-functioning (as is the case on first visiting the page). Once you have constructed a valid query, the button will become usable. 
-The "Save Query" button is used to save the query that you have constructed - see :ref:`Saved Queries <saved-queries>` for further information. Unless you are logged in (see :ref:`Login and Register <login-register>`), your saved queries will only persist for your current browser session. 
+
+Guided query 
+============
+
+.. _guided-query:
+
+Queries can be constructed and submitted either from this page or from the :ref:`advanced query interface <advanced-query>`. When a query has been submitted, you will be taken to the :ref:`Query Results <query-result>` page. 
+This query method is less flexible than the advanced query interface but its use is more straightforward for users that are not familiar with the VAMDC data model.
+
+.. image::
+   user-guide-portal/port10.png
+   
+There are 3 search modes :
+  - :ref:`Collisional processes <guided-query-collisional>`
+  - :ref:`Radiative processes <guided-query-radiative>`
+  - :ref:`Species <guided-query-species>`
+   
+   
+:red:`Collisional Process`
+-------------------------
+.. _guided-query-collisional:
+
+Collisional processes can be searched either with or without reaction. The search process is slightly different according to the user's choice as can be seen below.
+
+.. image::
+  user-guide-portal/port16.png
+  
+.. image::
+  user-guide-portal/port17.png
+  
+.. image::
+  user-guide-portal/port18.png  
+
+
+:red:`Radiative Process`
+-------------------------
+.. _guided-query-radiative:
+
+The user will be able to configure radiative transition parameters ( wavelength, frequency ... ), initial and final states parameters ( energies, transition probability ) and to select a list of species.
+
+.. image::
+  user-guide-portal/port13.png
+   
+When the first option "Transition from an energy range to another one" is selected, the corresponding form is displayed.
+It is possible to define an energy interval for both the upper and lower states of the transition.
+   
+.. image::
+   user-guide-portal/port14.png
+   
+If the second option "Any transition" has been selected, the previous step is skipped and the species selection form is displayed.
+
+
+.. image::
+   user-guide-portal/port15.png
+
+
+:red:`Species`
+-------------------------
+.. _guided-query-species:
+
+The query will be limited to a search by species (any number of atoms, molecules and particles). For each selected species, the user has to fill at least one field of the form.
+The generated query will use a "OR" clause ( search data related to species 1 OR species 2 ... OR species n ).
+
+.. image::
+   user-guide-portal/port11.png
+   
+When the choices are validated, a dedicated form is displayed for each species.
+
+.. _guided-query-species-form:
+
+.. image::
+   user-guide-portal/port12.png
+   
+The "Edit" button allows the user to add some new species to those that have been initially selected. 
+Species can be deleted by a click on the "Remove form" link.
+
+Some fields provide an auto completion feature, most notably for molecule names and formula.
 
 Query Results
 =============
@@ -150,7 +241,7 @@ The query control buttons enable you to:
 
 * Stop waiting - stops the current query from running rather than waiting for the remaining nodes to send a response. 
 
-* Save query - as on the query building page, enables you to save the current query. This is unavailable while the query is running. 
+* Save query - saves the query that you have constructed - see :ref:`Saved Queries <saved-queries>` for further information. Unless you are logged in (see :ref:`Login and Register <login-register>`), your saved queries will only persist for your current browser session.  This is unavailable while the query is running. 
 
 :red:`Textual view of query`
 ----------------------------
@@ -196,6 +287,8 @@ See the screenshot below for an annotated screenshot of the Conversion services.
 
 Saved queries
 =============
+
+.. _saved-queries:
 
 .. image::
    user-guide-portal/port9.png 
