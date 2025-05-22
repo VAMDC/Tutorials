@@ -89,7 +89,7 @@ All the available datasets appeared in the table. Thanks to the buttons on the r
 
 - Sources (list of all publications related to those data )
 - Energy tables ( list of levels )
-- Radiative Transitions (list of transitions and values of einstein coefficients)
+- Radiative Transitions (list of transitions and values of Einstein coefficients)
 - Partition function ( values of partition function for different temperatures)
 
 Take some time to try all those functionnalities. All those informations can be saved as csv files. Informations related to data sources can be exported as bibtex too.
@@ -132,17 +132,17 @@ Enter "He" in the Atomic symbol field. There should only be **2** available coll
 
 Once again, for each dataset, it is possible to display and export the data it contains as a CSV file :
 
-    - Sources
-    - Energy table of both target and collider
-    - Rate coefficients
-    - Whole file as XSAMS file 
+- Sources
+- Energy table of both target and collider
+- Rate coefficients
+- Whole file as XSAMS file 
     
 Task 3 : Grouping data
 ----------------------
 
-A very convenient features of this application is the possibility to merge data from Basecol and from a spectroscopic database.
+A very convenient feature of this application is the possibility to merge data from Basecol and from a spectroscopic database.
 The software will identify equivalent levels in energy tables according to their quantum numbers. 
-Then it will produce a table containing levels existing in both tables, using ernergy values from the spectroscopic database.
+Then it will produce a table containing levels existing in both tables, using energy values from the spectroscopic database.
 Finally, it will give rate and Einstein coefficients for the levels available after merging the tables. 
 
 The first thing to do is looking for CS data available in spectroscopic databases. We did that in task 2.1. Secondly, we have to look for CS by He collisions, as we did in task 2.2.
