@@ -9,7 +9,7 @@ Presentation
 Spectcol is a tool dedicated to handling XSAMS formatted data for the purpose of extracting and merging Einstein and rate coefficients from different sources.
 
 Spectcol is an executable software, developed in Java language. 
-The document gives a help on Spectcol's functionality and how to use it. Several versions have been developed since the beginning of the project, but the latest version is the "2502-r1".
+The document gives a help on Spectcol's functionality and how to use it. Several versions have been developed since the beginning of the project, but the latest version is the "2502_r1".
 
 This application has a direct access to data from 4 databases : 
 
